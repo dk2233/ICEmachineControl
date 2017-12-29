@@ -1,0 +1,38 @@
+Message[306] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 503 : Crossing page boundary -- ensure page bits are set.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 540 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 561 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1052 : Crossing page boundary -- ensure page bits are set.
+Message[306] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1057 : Crossing page boundary -- ensure page bits are set.
+Message[306] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1062 : Crossing page boundary -- ensure page bits are set.
+Message[306] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1068 : Crossing page boundary -- ensure page bits are set.
+Message[302] LIBS/LCD4BIT.ASM 200 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] LIBS/LCD4BIT.ASM 202 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] LIBS/LCD4BIT.ASM 270 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1510 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1518 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1579 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1585 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1608 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1708 : Crossing page boundary -- ensure page bits are set.
+Message[306] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1711 : Crossing page boundary -- ensure page bits are set.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1730 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 1830 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 2733 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[208] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 2943 : Label truncated at 32 characters. (nastawa_jest_wieksza_od_0_inna_regulacja)
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3204 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3205 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3207 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3208 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3213 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3217 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3220 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3237 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3241 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3248 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3254 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3256 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3259 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3268 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3272 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3276 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[306] C:\USERS\DANIEL\DOCUMENTS\MIKROKONTROLERY\LODOWKA\PROGRAM_STERUJACY_WERSJA2.ASM 3321 : Crossing page boundary -- ensure page bits are set.

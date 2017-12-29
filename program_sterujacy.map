@@ -1,0 +1,362 @@
+MPLINK 4.38, Linker
+Linker Map File - Created Wed Apr 02 02:58:25 2014
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000006
+                   .org_2       code   0x000004    program   0x000954
+                   .org_3       code   0x000800    program   0x000094
+                   .org_4       code   0x000900    program   0x000080
+.config_2007_PROGRAM_STERUJACY.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0004ad      
+                            0x000800    0x000849      
+                            0x000900    0x00093f      
+                            0x002007    0x002007      
+            1336 out of 8454 program addresses used, program memory utilization is 15%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BEGIN   0x000000    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           BEGIN2lcd_init   0x000812    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                     LOOP   0x000494    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                    LOOP2   0x0004ad    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+            LOOP_klawisze   0x00049c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+LOOP_sprawdz_ktory_wcisnieto   0x00049f    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+LOOP_sprawdz_wcisniecie_klawisz   0x0004a5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 PIN_HI_1   0x0002a7    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 PIN_LO_1   0x0002ad    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+      Pomiary_temperatury   0x0002eb    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                    Start   0x000294    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswie_Menu_gwiazd_normal_opcje   0x00013f    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswiet_Menu_linia_1_Val_kol_cyl   0x000102    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswiet_Menu_linia_2_Val_kol_cyl   0x000123    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietl_Menu_linia_2_poczatek   0x000107    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        Wyswietlanie_Menu   0x0000e1    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_gwiazdka   0x000128    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_linia_1   0x0000eb    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_linia_1_Value   0x0000fc    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_linia_2   0x00010c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_linia_2_Value   0x00011d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  Znajdz_litere_dla_linii   0x0000ce    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        Znajdz_wartosc_10   0x000285    program     static libs/wyswietlanie_liczb.asm
+  Znajdz_wartosc_100_pisz   0x000283    program     static libs/wyswietlanie_liczb.asm
+  Znajdz_wartosc_100_zero   0x00027e    program     static libs/wyswietlanie_liczb.asm
+   Znajdz_wartosc_10_pisz   0x00028e    program     static libs/wyswietlanie_liczb.asm
+   Znajdz_wartosc_10_zero   0x000288    program     static libs/wyswietlanie_liczb.asm
+     Znajdz_wartosc_opcji   0x000049    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  Znajdz_wartosc_opcji_10   0x00028c    program     static libs/wyswietlanie_liczb.asm
+ Znajdz_wartosc_opcji_100   0x000281    program     static libs/wyswietlanie_liczb.asm
+ Znajdz_wartosc_opcji_hex   0x0000b4    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_nastawy   0x000087    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_nastawy1   0x00008e    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_temper   0x00005e    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_temper_1   0x000067    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_temper_2   0x000073    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        blad_inicjacji_ds   0x0002e8    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+brak_zera_przejdz_do_dzielenia   0x0001e2    program     static libs/dzielenie.asm       
+                    check   0x000195    program     static libs/lcd4bit.asm         
+             check_CRC_DS   0x000362    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        check_CRC_DS_loop   0x000363    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           check_busy4bit   0x00018a    program     static libs/lcd4bit.asm         
+               clear_line   0x000180    program     static libs/lcd4bit.asm         
+           clear_line_old   0x00016e    program     static libs/lcd4bit.asm         
+          clear_line_old2   0x000177    program     static libs/lcd4bit.asm         
+         clear_line_petla   0x000182    program     static libs/lcd4bit.asm         
+                  cmd_off   0x00016c    program     static libs/lcd4bit.asm         
+                cyfry_0_9   0x0000b1    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+czekam_na_kolejny_bit_DS_1   0x000359    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                dzielenie   0x0001d8    program     static libs/dzielenie.asm       
+            dzielenie_end   0x0001f2    program     static libs/dzielenie.asm       
+         dzielenie_ulamek   0x0001fa    program     static libs/dzielenie.asm       
+   dzielenie_ulamek_1bajt   0x00021c    program     static libs/dzielenie.asm       
+  dzielenie_ulamek_2bajty   0x0001fd    program     static libs/dzielenie.asm       
+dzielenie_ulamek_end_2bajty   0x00020b    program     static libs/dzielenie.asm       
+dzielenie_ulamek_petla_2bajty   0x000204    program     static libs/dzielenie.asm       
+               dziesiatki   0x00022f    program     static libs/hextodec.asm        
+                  hex2dec   0x000228    program     static libs/hextodec.asm        
+ hex2dec_ulamek_tysieczny   0x000239    program     static libs/hextodec.asm        
+                inicjacja   0x000800    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       inicjacja_ds1820_1   0x0002c5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           inicjacja_ok_1   0x0002e5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 jednosci   0x000236    program     static libs/hextodec.asm        
+ klawisz_dol_uruchom_wart   0x0003e5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  klawisz_dol_zmiana_menu   0x0003ae    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_nastawa   0x0003cd    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_nastawa1   0x0003d5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_nastawa_end   0x0003d9    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_uruchom   0x0003da    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_wartosci   0x0003bf    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_wartosci_end   0x0003ea    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ klawisz_gora_zmiana_menu   0x0003f6    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_gora_zmiana_wartosci   0x0003ff    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+   klawisz_up_1_pr_zmiana   0x000415    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_up_1_pr_zmiana_end   0x000419    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  klawisz_up_uruchom_wart   0x000425    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_up_zmiana_nastawa   0x00040d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_up_zmiana_uruchom   0x00041a    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_up_zmiana_wartosci_end   0x00042a    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 lcd_init   0x0001aa    program     static libs/lcd4bit.asm         
+         lcd_init_3_petla   0x0001b2    program     static libs/lcd4bit.asm         
+mnoze_przez_wynik01_2bajty   0x000211    program     static libs/dzielenie.asm       
+mnoze_przez_wynik01_2bajty_LOOP   0x000216    program     static libs/dzielenie.asm       
+                 mnozenie   0x000255    program     static libs/mnozenie.asm        
+               mnozenie_h   0x000273    program     static libs/mnozenie.asm        
+               mnozenie_l   0x00025a    program     static libs/mnozenie.asm        
+              mnozenie_l2   0x00025e    program     static libs/mnozenie.asm        
+nastawa_jest_wieksza_od_0   0x000492    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                     next   0x000839    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                    next2   0x000841    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+     odbierz_pomiary_temp   0x00031b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+odbierz_pomiary_temp_show_data   0x00039b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+    off_kompresor_lodowki   0x000492    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja0   0x000900    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja1   0x00090c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja2   0x000918    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja3   0x000920    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja4   0x000928    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+          petla_dzielenia   0x0001e2    program     static libs/dzielenie.asm       
+         petla_dzielenia2   0x0001ee    program     static libs/dzielenie.asm       
+       petla_inicjacji1_1   0x0002d3    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       petla_inicjacji2_1   0x0002dc    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       petla_inicjacji3_1   0x0002e1    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  petla_odbioru_rozkazu_1   0x00032f    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ petla_odbioru_z_ds1820_1   0x00033b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+         petla_send_one_1   0x0002b9    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        petla_send_zero_1   0x0002c1    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+   petla_sending_pomiar_1   0x000311    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+petla_stan_odebranego_bitu_1   0x000340    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+petla_wysylania_rozkazu_1   0x0002f6    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_dol   0x0003a8    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_dol_nic   0x0003b7    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_dol_wcisn   0x0003aa    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_enter   0x000430    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_gora   0x0003f0    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_gora_nic   0x0003fe    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               przerwanie   0x000004    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_0   0x000015    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_1   0x000015    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_2   0x00001d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_3   0x000023    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_4   0x000023    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_5   0x000023    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                regulacja   0x00046d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  regulacja_po_histerezie   0x00047d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                rozkac_id   0x00093c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           rozkaz_odbioru   0x000937    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           rozkaz_pomiaru   0x000932    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  sa_rowne_sprawdz_ulamek   0x000488    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+sa_rowne_sprawdz_ulamek_bez_odw   0x00048c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                     send   0x000152    program     static libs/lcd4bit.asm         
+                 send4bit   0x000152    program     static libs/lcd4bit.asm         
+               send_one_1   0x0002b4    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+              send_zero_1   0x0002bc    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 ulamek22   0x00026b    program     static libs/mnozenie.asm        
+                     wait   0x000145    program     static libs/lcd4bit.asm         
+                    wait1   0x000148    program     static libs/lcd4bit.asm         
+                    wait2   0x00014b    program     static libs/lcd4bit.asm         
+                    wait3   0x00014e    program     static libs/lcd4bit.asm         
+    wcisnieto_klawisz_dol   0x00045b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  wcisnieto_klawisz_enter   0x000467    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+   wcisnieto_klawisz_gora   0x000461    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  wlacz_kompresor_lodowki   0x000490    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+    wlacz_przerwanie_tmr0   0x000450    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                write_lcd   0x000168    program     static libs/lcd4bit.asm         
+      wybrano_menu_glowne   0x00043e    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+     wybrano_zmiane_opcji   0x000436    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       wyjscie_przerwanie   0x000023    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               wykryto_t0   0x00002c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               wykryto_t1   0x000037    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             wykryto_t1_1   0x000046    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ wykryto_t1_nakaz_odczytu   0x000040    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               wykryto_t2   0x000047    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ wyswietl_liczbe_1bajtowa   0x000279    program     static libs/wyswietlanie_liczb.asm
+      zamien_dane_na_temp   0x00037b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+zamien_dane_na_temp_dodatnie   0x000387    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+            zamien_na_hex   0x0000a9    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 zapal_t1   0x000045    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+zarejestrowano_klawisz_dol   0x0003a4    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+zarejestrowano_klawisz_enter   0x00042c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+zarejestrowano_klawisz_gora   0x0003ec    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ zwieksz_temp_o_histereze   0x000479    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BEGIN   0x000000    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               przerwanie   0x000004    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_1   0x000015    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_0   0x000015    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_2   0x00001d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_5   0x000023    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_4   0x000023    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       wyjscie_przerwanie   0x000023    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             przerwanie_3   0x000023    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               wykryto_t0   0x00002c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               wykryto_t1   0x000037    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ wykryto_t1_nakaz_odczytu   0x000040    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 zapal_t1   0x000045    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             wykryto_t1_1   0x000046    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               wykryto_t2   0x000047    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+     Znajdz_wartosc_opcji   0x000049    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_temper   0x00005e    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_temper_1   0x000067    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_temper_2   0x000073    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_nastawy   0x000087    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Znajdz_wartosc_opcji_nastawy1   0x00008e    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+            zamien_na_hex   0x0000a9    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                cyfry_0_9   0x0000b1    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ Znajdz_wartosc_opcji_hex   0x0000b4    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  Znajdz_litere_dla_linii   0x0000ce    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        Wyswietlanie_Menu   0x0000e1    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_linia_1   0x0000eb    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_linia_1_Value   0x0000fc    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswiet_Menu_linia_1_Val_kol_cyl   0x000102    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietl_Menu_linia_2_poczatek   0x000107    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_linia_2   0x00010c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_linia_2_Value   0x00011d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswiet_Menu_linia_2_Val_kol_cyl   0x000123    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswietlanie_Menu_gwiazdka   0x000128    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+Wyswie_Menu_gwiazd_normal_opcje   0x00013f    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                     wait   0x000145    program     static libs/lcd4bit.asm         
+                    wait1   0x000148    program     static libs/lcd4bit.asm         
+                    wait2   0x00014b    program     static libs/lcd4bit.asm         
+                    wait3   0x00014e    program     static libs/lcd4bit.asm         
+                     send   0x000152    program     static libs/lcd4bit.asm         
+                 send4bit   0x000152    program     static libs/lcd4bit.asm         
+                write_lcd   0x000168    program     static libs/lcd4bit.asm         
+                  cmd_off   0x00016c    program     static libs/lcd4bit.asm         
+           clear_line_old   0x00016e    program     static libs/lcd4bit.asm         
+          clear_line_old2   0x000177    program     static libs/lcd4bit.asm         
+               clear_line   0x000180    program     static libs/lcd4bit.asm         
+         clear_line_petla   0x000182    program     static libs/lcd4bit.asm         
+           check_busy4bit   0x00018a    program     static libs/lcd4bit.asm         
+                    check   0x000195    program     static libs/lcd4bit.asm         
+                 lcd_init   0x0001aa    program     static libs/lcd4bit.asm         
+         lcd_init_3_petla   0x0001b2    program     static libs/lcd4bit.asm         
+                dzielenie   0x0001d8    program     static libs/dzielenie.asm       
+brak_zera_przejdz_do_dzielenia   0x0001e2    program     static libs/dzielenie.asm       
+          petla_dzielenia   0x0001e2    program     static libs/dzielenie.asm       
+         petla_dzielenia2   0x0001ee    program     static libs/dzielenie.asm       
+            dzielenie_end   0x0001f2    program     static libs/dzielenie.asm       
+         dzielenie_ulamek   0x0001fa    program     static libs/dzielenie.asm       
+  dzielenie_ulamek_2bajty   0x0001fd    program     static libs/dzielenie.asm       
+dzielenie_ulamek_petla_2bajty   0x000204    program     static libs/dzielenie.asm       
+dzielenie_ulamek_end_2bajty   0x00020b    program     static libs/dzielenie.asm       
+mnoze_przez_wynik01_2bajty   0x000211    program     static libs/dzielenie.asm       
+mnoze_przez_wynik01_2bajty_LOOP   0x000216    program     static libs/dzielenie.asm       
+   dzielenie_ulamek_1bajt   0x00021c    program     static libs/dzielenie.asm       
+                  hex2dec   0x000228    program     static libs/hextodec.asm        
+               dziesiatki   0x00022f    program     static libs/hextodec.asm        
+                 jednosci   0x000236    program     static libs/hextodec.asm        
+ hex2dec_ulamek_tysieczny   0x000239    program     static libs/hextodec.asm        
+                 mnozenie   0x000255    program     static libs/mnozenie.asm        
+               mnozenie_l   0x00025a    program     static libs/mnozenie.asm        
+              mnozenie_l2   0x00025e    program     static libs/mnozenie.asm        
+                 ulamek22   0x00026b    program     static libs/mnozenie.asm        
+               mnozenie_h   0x000273    program     static libs/mnozenie.asm        
+ wyswietl_liczbe_1bajtowa   0x000279    program     static libs/wyswietlanie_liczb.asm
+  Znajdz_wartosc_100_zero   0x00027e    program     static libs/wyswietlanie_liczb.asm
+ Znajdz_wartosc_opcji_100   0x000281    program     static libs/wyswietlanie_liczb.asm
+  Znajdz_wartosc_100_pisz   0x000283    program     static libs/wyswietlanie_liczb.asm
+        Znajdz_wartosc_10   0x000285    program     static libs/wyswietlanie_liczb.asm
+   Znajdz_wartosc_10_zero   0x000288    program     static libs/wyswietlanie_liczb.asm
+  Znajdz_wartosc_opcji_10   0x00028c    program     static libs/wyswietlanie_liczb.asm
+   Znajdz_wartosc_10_pisz   0x00028e    program     static libs/wyswietlanie_liczb.asm
+                    Start   0x000294    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 PIN_HI_1   0x0002a7    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                 PIN_LO_1   0x0002ad    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+               send_one_1   0x0002b4    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+         petla_send_one_1   0x0002b9    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+              send_zero_1   0x0002bc    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        petla_send_zero_1   0x0002c1    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       inicjacja_ds1820_1   0x0002c5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       petla_inicjacji1_1   0x0002d3    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       petla_inicjacji2_1   0x0002dc    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+       petla_inicjacji3_1   0x0002e1    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           inicjacja_ok_1   0x0002e5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        blad_inicjacji_ds   0x0002e8    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+      Pomiary_temperatury   0x0002eb    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+petla_wysylania_rozkazu_1   0x0002f6    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+   petla_sending_pomiar_1   0x000311    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+     odbierz_pomiary_temp   0x00031b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  petla_odbioru_rozkazu_1   0x00032f    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ petla_odbioru_z_ds1820_1   0x00033b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+petla_stan_odebranego_bitu_1   0x000340    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+czekam_na_kolejny_bit_DS_1   0x000359    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+             check_CRC_DS   0x000362    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+        check_CRC_DS_loop   0x000363    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+      zamien_dane_na_temp   0x00037b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+zamien_dane_na_temp_dodatnie   0x000387    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+odbierz_pomiary_temp_show_data   0x00039b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+zarejestrowano_klawisz_dol   0x0003a4    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_dol   0x0003a8    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_dol_wcisn   0x0003aa    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  klawisz_dol_zmiana_menu   0x0003ae    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_dol_nic   0x0003b7    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_wartosci   0x0003bf    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_nastawa   0x0003cd    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_nastawa1   0x0003d5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_nastawa_end   0x0003d9    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_uruchom   0x0003da    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ klawisz_dol_uruchom_wart   0x0003e5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_dol_zmiana_wartosci_end   0x0003ea    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+zarejestrowano_klawisz_gora   0x0003ec    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_gora   0x0003f0    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ klawisz_gora_zmiana_menu   0x0003f6    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_gora_nic   0x0003fe    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_gora_zmiana_wartosci   0x0003ff    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_up_zmiana_nastawa   0x00040d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+   klawisz_up_1_pr_zmiana   0x000415    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_up_1_pr_zmiana_end   0x000419    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_up_zmiana_uruchom   0x00041a    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  klawisz_up_uruchom_wart   0x000425    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+klawisz_up_zmiana_wartosci_end   0x00042a    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+zarejestrowano_klawisz_enter   0x00042c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+procedura_po_wci_pusz_enter   0x000430    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+     wybrano_zmiane_opcji   0x000436    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+      wybrano_menu_glowne   0x00043e    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+    wlacz_przerwanie_tmr0   0x000450    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+    wcisnieto_klawisz_dol   0x00045b    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+   wcisnieto_klawisz_gora   0x000461    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  wcisnieto_klawisz_enter   0x000467    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                regulacja   0x00046d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+ zwieksz_temp_o_histereze   0x000479    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  regulacja_po_histerezie   0x00047d    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  sa_rowne_sprawdz_ulamek   0x000488    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+sa_rowne_sprawdz_ulamek_bez_odw   0x00048c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+  wlacz_kompresor_lodowki   0x000490    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+    off_kompresor_lodowki   0x000492    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+nastawa_jest_wieksza_od_0   0x000492    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                     LOOP   0x000494    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+            LOOP_klawisze   0x00049c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+LOOP_sprawdz_ktory_wcisnieto   0x00049f    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+LOOP_sprawdz_wcisniecie_klawisz   0x0004a5    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                    LOOP2   0x0004ad    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                inicjacja   0x000800    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           BEGIN2lcd_init   0x000812    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                     next   0x000839    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                    next2   0x000841    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja0   0x000900    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja1   0x00090c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja2   0x000918    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja3   0x000920    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                   opcja4   0x000928    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           rozkaz_pomiaru   0x000932    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+           rozkaz_odbioru   0x000937    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+                rozkac_id   0x00093c    program     static C:\Users\daniel\Documents\lodowka\program_sterujacy.asm
+
+
